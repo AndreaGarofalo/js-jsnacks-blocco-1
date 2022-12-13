@@ -10,5 +10,6 @@ for (let i = 0; i < 10; i++) {
     break;
   }
   console.log(userNumbers);
-  finalNumbers.innerHTML = `<p>The sum of the numbers you have chosen is: <strong>${userNumbers}</strong></p>`;
 }
+
+finalNumbers.innerHTML = `<p>The sum of the numbers you have chosen is: <strong>${userNumbers}</strong></p>`;
